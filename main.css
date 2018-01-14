@@ -1,0 +1,81 @@
+body {
+    background: skyblue;
+    font: .81em/150% Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin:auto;
+    display:center;
+    max-width:550px;
+
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+    border: 5px solid skyblue);
+  }
+  li {
+    float: left;
+    border: 3px  rgb(184, 182, 182);
+  }
+  a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    background: greenyellow
+  }
+  /*Verónica Rebagliatte https://codepen.io/rebagliatte/pen/nLDsK?q=css%20float%20navigation&order=popularity&depth=everything&show_forks=false */
+
+.team{
+    /* min-height: 30vh;
+    max-height: 40vh; */
+}
+
+.team-image{
+    /* float:right; */
+    max-width: auto;
+    max-height: 50vh;
+}
+
+/* Map */
+#map {
+  width: 100%;
+  height: 400px;
+  background-color:white;
+}
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+                      
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.bottom-footer{
+  background-color: lightblue;
+}
+.bottom-text{
+  color:red;
+  text-align:center;
+  font-size:20px;
+}
